@@ -1,0 +1,166 @@
+
+
+.text-center {
+    text-align: center!important;
+}
+.my-5 {
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+/* Apply general styles to the page */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+ 
+ 
+  
+  /* Header styles */
+  .my-5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .blue-color {
+    color: #16595b;
+  }
+  
+  .fs-5 {
+  
+    font-size: 18px;
+  }
+
+  .text-center b{
+    color: #16595b;
+  }
+  
+  /* Card styles */
+  .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card img {
+    object-fit: cover;
+  }
+  
+  /* Button styles */
+  .default-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .default-btn:hover {
+    background-color: #3fbbc0;
+  } 
+  
+  /* @media (max-width: 768px) {
+    .navbar-toggler-icon {
+      background-color: #007BFF;
+    }
+  
+    .navbar-collapse {
+      background-color: #007BFF;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  } */
+  
+
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.default-btn {
+  background-color:transparent;
+  width: 197px;
+  height: 49px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: 2px solid #16595b;
+  background-color: #fff;
+  color: #16595b;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-color: #000000;
+  border-width: 8px;
+  width: 4%;
+  margin: 5em auto 3em auto;
+  opacity: 1;
+}   
+.logo{
+  width: 1.8em;
+}
+
+.nav-item{
+  margin-right: 1em;
+}
+
+.navbar{
+  position: sticky;
+  z-index: 4;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}

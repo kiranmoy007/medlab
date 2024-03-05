@@ -1,0 +1,463 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0px;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-color: #000000;
+    border-width: 8px;
+    width: 4%;
+    margin: 5em auto 3em auto;
+    opacity: 1;
+}   
+.logo{
+    width: 1.8em;
+}
+
+.nav-item{
+    margin-right: 1em;
+}
+
+.navbar{
+    position: sticky;
+    z-index: 4;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.container1{
+    max-width: 100%;
+    height: 45em;
+    background-color: #343a40;
+    margin-top: -3em;
+}
+
+.carousel{
+    position: absolute;
+    width: 98%;
+    margin: 4em 1em 1em 1em;
+}
+
+
+.carousel-inner{
+     height: 40em;
+}
+
+.car-size{
+    width: 100%;
+}
+
+.quotes{
+    background-image: linear-gradient(to right, #5de0e6 , #004aad);
+    width: 14em;
+    height: 14em;
+    position: absolute;
+    border-radius: 26px;
+    left: 11em;
+    top: 7em;
+    padding: 28px;
+    padding-bottom: 7em;
+    z-index: 1;
+}
+.quote-size{
+    position: sticky;
+    margin-left: 4em;
+    width: 2em;
+    margin-bottom: 2px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/* .container2{
+    width: 100%;
+    height: 26em;
+}
+
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 24em;
+    margin-top: 27px;
+    border: 2px solid rgb(109, 113, 109);
+    padding-top: 16px;
+    border-radius: 20em;
+}
+
+.abt-us1{
+    color: #16595B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    width: 8em;
+    margin: 1em auto 0 auto;
+    margin-bottom: 10px;
+}
+
+.abt{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13em;
+    margin-right: 13em;
+    text-align: justify;
+} */ 
+.container2 {
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  
+    /* Add some padding and border-radius for a cleaner look */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */ 
+    text-align: center;
+  }
+  
+  .box1 {
+    background-color: #f9f9f9; /* Set a light background color for the box */
+    padding: 20px; /* Add padding to the box */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  }
+  
+  /* Style the ABOUT MEDLAB heading */
+  .abt-us1 {
+    color: #16595B; /* Set the text color */ 
+    justify-content: center;
+  }
+  
+  /* Style the paragraph text */
+  .abt {
+    line-height: 1.5; /* Improve readability with slightly increased line height */
+  }
+  
+  /* Make images and videos within the container responsive */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for responsiveness on smaller screens */
+  @media screen and (max-width: 768px) {
+    .container2 {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.container3{
+    width: 100%;
+    height: 53em;
+    margin-top: 5em;
+
+}
+
+
+
+.abt-us2{
+    color: #16595b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    width: 26em;
+    margin: 1em auto 2em auto;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.app-form{
+    width: 39%;
+    margin: 5px auto 2em auto;
+    background: #ffffff;
+    align-items: center;
+}
+
+.Outerbox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    margin-top: 5em;
+    margin-bottom: auto;
+
+}
+#general{
+    width: 51%;
+    border-radius: 3%;
+    background-color: #ffffff;
+    border:2px solid rgb(109, 113, 109);
+    padding-bottom: 1.5%;
+    padding-top: 3%;
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.font{
+    font-family: 'Noto Sans Multani', sans-serif;
+    font-weight: 700px;
+    font-size: 1.22em;
+    color: rgb(0, 0, 0);
+}    
+
+.submit{
+    font-family: 'Noto Sans Multani', sans-serif;
+    font-size: 90.7%;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 5%;
+ }
+
+.btn1{
+    background-color: #3FBBC0;
+    border:4px solid #16595B;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: 2%;
+    border-radius: 18px;
+    width : 40%;
+    margin-bottom: 4%;
+    align-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.widget input{
+    display:block;
+    background-color: #ffffff;
+    margin-bottom: 5%;
+    padding: 3%;
+    color: hwb(0 0% 100%);
+    font-size: 1rem;
+    width:90%; 
+    border:2px solid rgb(109, 113, 109);
+    border-radius: 18px;
+    margin-top:5px; 
+    
+}
+.submit{
+    font-family: 'Noto Sans Multani', sans-serif;
+    font-size: 90.7%;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 1em;
+ }
+
+#message{
+    display:block;
+    background-color: #ffffff;
+    margin-bottom: 5%;
+    padding: 3%;
+    color: hwb(0 0% 100%);
+    font-size: 1rem;
+    width:90%; 
+    border:2px solid rgb(109, 113, 109);
+    border-radius: 18px;
+    margin-top:5px; 
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.container4{
+    margin-top: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.service-box {
+    
+    width: 19em;
+    border-radius: 8px;
+    border: 2px solid rgb(109, 113, 109);
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    transition: transform 0.3s ease 0s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box h3 {
+    color:#16595B;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-box p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.center-heading {
+    color: #16595B;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service-box svg {
+    width: 50px;
+    height: 50px;
+    fill: #3FBBC0; /* Icon color */
+    margin-bottom: 10px;
+     /* Adjust as needed */
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.container5{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.doctor-box {
+
+    width: 315px;
+    /* Set the desired width */
+    height: 472px;
+    border: 2px solid rgb(109, 113, 109);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    justify-content: space-between;
+}
+
+.doctor-box:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16595B;
+}
+
+.doctor-box h3 {
+    color: #3fbbc0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.doctor-box p {
+    font-size: 0.85rem;
+    white-space: 1;
+
+}
+
+.doctor-image { 
+    width: 185px;
+    max-width: fit-content;
+    /* Set the desired width */
+    height: 185px;
+    /* Set the desired height */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover container */
+    border-radius: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+}
+
+@media (max-width: 576px) {
+    /* Styles for screens up to 576px wide (typically mobile screens) */
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container6{
+    background-color: #f0e6e6   ;
+    height: 20em;
+}
+
+.form{
+    margin-right: 2em;
+}
+.form p {
+    color: #16595B;
+}
+
+.btn3{
+    background-color: #3FBBC0;
+    border: 3px solid ;
+    color: #16595B;
+    font-size: 1rem;
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 159%;
+    margin-bottom: 0%;
+    align-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+.res{
+    width: 19em;
+    margin: 3px auto 0 auto;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 0rem !important;
+
+}
+
+
+
+
+

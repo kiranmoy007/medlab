@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container5{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.doctor-box {
+
+    width: 315px;
+    /* Set the desired width */
+    height: 472px;
+    /* Set the desired height */
+    border-radius: 8px;
+    border-color: #7a8384;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    justify-content: space-between;
+}
+
+.doctor-box:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16595B;
+}
+
+.doctor-box h3 {
+    color: #3fbbc0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.doctor-box p {
+    font-size: 0.85rem;
+    white-space: 1;
+
+}
+
+.doctor-image {
+    width: 185px;
+    max-width: fit-content;
+    /* Set the desired width */
+    height: 185px;
+    /* Set the desired height */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover container */
+    border-radius: 5%;
+    ;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+}
+
+@media (max-width: 576px) {
+    /* Styles for screens up to 576px wide (typically mobile screens) */
+}
+
+  
